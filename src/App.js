@@ -1,5 +1,5 @@
 import { Navbar } from "./components/Navbar/Navbar";
-import {ItemListContainer} from "./components/ItemListContainer/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-     <ItemListContainer/>
+     <ItemListContainer greeting={"Combo de productos"}/>
       
 
     </div>

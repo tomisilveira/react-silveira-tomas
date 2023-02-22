@@ -10,7 +10,7 @@ export  function Navbar() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="#">
-                            <img class="p-8 rounded-t-lg logo" src="./imgs/fullClean.png" alt="product image" />
+                            <img class="p-8 rounded-t-lg logo" src="./imgs/fullClean.png" alt="logotipo empresa" />
                         </a>
                         <div className="md:hidden">
                             <button
@@ -68,6 +68,11 @@ export  function Navbar() {
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                                 <a href="#">Contactanos</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                    <a href="URL-HERE" class="carrito" title="Carrito" target="_blank" rel="nofollow"><img class="p-8 rounded-t-lg logo" src="./imgs/bolsaDeTrabajoMin.png" alt="carrito" />
+                                    
+                                    </a>
                             </li>
                         </ul>
                     </div>
