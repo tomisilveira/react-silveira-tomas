@@ -70,7 +70,7 @@ export  function Navbar() {
                                 <a href="#">Contactanos</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                    <a href="URL-HERE" class="carrito" title="Carrito" target="_blank" rel="nofollow"><img class="p-8 rounded-t-lg logo" src="./imgs/bolsaDeTrabajoMin.png" alt="carrito" />
+                                    <a href="URL-HERE" class="carrito" title="Carrito" target="_blank" rel="nofollow"><img class="p-8 rounded-t-lg logo" src="./imgs/carritoMin.png" alt="carrito" />
                                     
                                     </a>
                             </li>
