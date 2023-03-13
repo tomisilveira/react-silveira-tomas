@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "combo 1",
+        "precio": "$1000",
+        "description": "lorem 1",
+        "img": "./imgs/producto1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "combo 2",
+        "precio": "$1000",
+        "description": "lorem 1",
+        "img": "./imgs/producto1.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "combo 3",
+        "precio": "$1000",
+        "description": "lorem 1",
+        "img": "./imgs/producto1.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "combo 4",
+        "precio": "$1000",
+        "description": "lorem 1",
+        "img": "./imgs/producto1.jpeg"
+    }
+]
