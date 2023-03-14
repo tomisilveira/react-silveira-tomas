@@ -45,7 +45,7 @@ import {
         .finally (( ) => {
             setLoading(false)
         })
-    },[])
+    },[categoryId])
     
 
     return (
