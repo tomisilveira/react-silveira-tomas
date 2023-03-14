@@ -11,6 +11,7 @@ import {
   
   import {pedirDatos} from '../helpers/pedirDatos';
   import ItemList from "../ItemList/ItemList";
+  import {useParams} from 'react-router-dom'
 
   
    
@@ -20,14 +21,22 @@ import {
 
     const [productos, setProductos] = useState([])
     const [loading,setLoading]=useState(true)
+    const params = useParams()
+
+
+    const {categoryId}=useParams()
+
 
     useEffect(()=>{
 
-
         pedirDatos()
         .then((response) => {
+            if(!categoryId){
             setProductos(response)
-            setLoading(false)
+            setLoading(false)}
+            else{
+                setProductos(response.filter((prod)=>prod.category===categoryId))
+            }
         })
         .catch((error) => {
             console.log("error")

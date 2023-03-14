@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './Navbar.scss'
+import{Link} from 'react-router-dom'
 
 export  function Navbar() {
     const [navbar, setNavbar] = useState(false);
@@ -58,16 +59,19 @@ export  function Navbar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="#">Inicio</a>
+                                <Link to="/">Inicio</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="#">Productos</a>
+                                <Link to="/">Productos</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="#">Nosotros</a>
+                                <Link to="/productos/liquido">Liquidos</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="#">Contactanos</a>
+                                <Link to="/nosotros">Nosotros</Link>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <Link to="/contacto">Contactanos</Link>
                             </li>
                             
                         </ul>

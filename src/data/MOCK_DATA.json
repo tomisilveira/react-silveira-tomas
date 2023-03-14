@@ -4,27 +4,31 @@
         "name": "combo 1",
         "precio": "$1000",
         "description": "lorem 1",
-        "img": "./imgs/producto1.jpeg"
+        "img": "./imgs/producto1.jpeg",
+        "category":"polvo"
     },
     {
         "id": 2,
         "name": "combo 2",
         "precio": "$1000",
         "description": "lorem 1",
-        "img": "./imgs/producto1.jpeg"
+        "img": "./imgs/producto1.jpeg",
+        "category":"liquido"
     },
     {
         "id": 3,
         "name": "combo 3",
         "precio": "$1000",
         "description": "lorem 1",
-        "img": "./imgs/producto1.jpeg"
+        "img": "./imgs/producto1.jpeg",
+        "category":"polvo"
     },
     {
         "id": 4,
         "name": "combo 4",
         "precio": "$1000",
         "description": "lorem 1",
-        "img": "./imgs/producto1.jpeg"
+        "img": "./imgs/producto1.jpeg",
+        "category":"liquido"
     }
 ]
